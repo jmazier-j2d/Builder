@@ -25,15 +25,7 @@ class GrafiteBuilderProvider extends ServiceProvider
      */
     public function boot()
     {
-        // do nothing
-    }
-
-    /**
-     * Register the service provider.
-     */
-    public function register()
-    {
-        /*
+       /*
         |--------------------------------------------------------------------------
         | Providers
         |--------------------------------------------------------------------------
@@ -62,5 +54,13 @@ class GrafiteBuilderProvider extends ServiceProvider
             Socialite::class,
             Starter::class,
         ]);
+    }
+
+    /**
+     * Register the service provider.
+     */
+    public function register()
+    {
+ 
     }
 }
