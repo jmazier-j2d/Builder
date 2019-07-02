@@ -1,5 +1,5 @@
 {
-    "name": "grafite/builder",
+    "name": "grafite-fork-laravel-5-8/builder",
     "description": "Prepare your Laravel apps incredibly fast, with various commands, services, facades and boilerplates.",
     "license": "MIT",
     "authors": [
